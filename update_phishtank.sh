@@ -2,7 +2,7 @@
 
 # PhishTank 데이터베이스 자동 갱신 스크립트
 # 매일 새벽 2시에 크론탭으로 실행됨
-
+# LF 줄바꿈 적용
 # 변수 설정
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DATA_DIR="${SCRIPT_DIR}/data/phishtank"
